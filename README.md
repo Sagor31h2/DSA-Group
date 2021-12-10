@@ -5,11 +5,19 @@
 # **Topics**
 
 ## *Ds*
+ <ul>
 
-- Array
-- Stack
-- Queue
-- Linked List
+<li>Array</li>
+<li>Stack</li>
+
+<li>Queue</li>
+ <ul>
+ <li>Circular</li>
+ <li>Priority</li>
+ </ul>
+
+<li>Linked List</li>
+</ul>
 
 ## *Algo*
 - Bubble sort
