@@ -1,1 +1,0 @@
-  push(&stack, 7);
