@@ -456,4 +456,5 @@ $RECYCLE.BIN/
 **.vscode
 **.exe
 **tempCodeRunnerFile.c
+**tempCodeRunnerFile.cpp
 t/
