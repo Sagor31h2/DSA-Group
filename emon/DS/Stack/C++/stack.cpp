@@ -21,8 +21,8 @@ int pop()
     int val;
     if (top == -1)
     {
-        cout << "Stack underflow.";
-        exit(1);
+        cout << "Stack underflow." << endl;
+        return 0;
     }
     val = stackArr[top];
     top--;
@@ -43,6 +43,16 @@ void print()
     cout << endl;
 }
 
+int peek()
+{
+    if (top <= -1)
+    {
+        cout << "The stack is empty.";
+        return 0;
+    }
+    return stackArr[top];
+}
+
 int main()
 {
     int poppedElement;
@@ -50,10 +60,19 @@ int main()
     push(2);
     push(3);
     push(4);
-    poppedElement = pop();
-    cout << "Popped element is: " << poppedElement << endl;
-    cout << "The stack is: ";
-    print();
+    pop();
+    pop();
+    pop();
+    pop();
+    pop();
+
+    peek();
+    // pop();
+    // pop();
+    // poppedElement = pop();
+    // cout << "Popped element is: " << poppedElement << endl;
+    // cout << "The stack is: ";
+    // print();
 
     return 0;
 }
