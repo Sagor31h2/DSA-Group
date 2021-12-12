@@ -9,7 +9,7 @@ class Queue {
 
     public:
     Queue(){
-        front = rear = 0-1;
+        front = rear = -1;
     }
 
     bool isEmpty(){
