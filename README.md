@@ -38,5 +38,7 @@
 -
 ## *Blogs*
 - [Geeksforgeeks](https://www.geeksforgeeks.org/data-structures/)
+
+- [Pogramiz](https://www.programiz.com/dsa)
 ---
 
