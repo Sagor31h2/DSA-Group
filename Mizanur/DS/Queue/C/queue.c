@@ -93,6 +93,7 @@ int deQueue(Queue *s){
             s->front = s->rear = -1;
         }
     }
+    
     return item;
 }
 
